@@ -1,0 +1,208 @@
+/* Imports the Downloaded Fonts */
+@font-face {
+    src: url(fonts/Brandon_bld.otf);
+    font-family: Brandon Bold;
+}
+
+@font-face {
+    src: url(fonts/Brandon_blk.otf);
+    font-family: Brandon Black;
+}
+
+@font-face {
+    src: url(fonts/Brandon_med.otf);
+    font-family: Brandon Medium;
+}
+
+@font-face {
+    src: url(fonts/Brandon_reg.otf);
+    font-family: Brandon Regular;
+}
+
+/* Dropdown Menu Styling */
+#restaurants {
+    font-size: 25px;
+    font-family: Brandon Medium, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 10px;
+    width: auto;
+    box-sizing: border-box;
+    border: 4px solid #009ADF;
+    box-shadow: 4px 4px #273D52;
+    background-color: #273D52;
+    color: white;
+}
+
+/* Body and H1 elements */
+body {
+    background-color: #EAF1F2;
+}
+
+h1 {
+    font-family: Brandon Medium, Helvetica, sans-serif;
+
+}
+
+/* Header Styling */
+#restaurantInfo {
+    background-color: #0082BC;
+    border-radius: 15px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    box-shadow: 6px 10px #273D52;
+
+}
+
+/* Specific to h1 elements in restaurantInfo  */
+#restaurantInfo h1 {
+    display: inline-block;
+    font-size: 30px;
+    font-family: Brandon Medium, Helvetica, sans-serif;
+    padding: 10px;
+}
+
+/* Content inside header */
+#minimumOrder {
+    float:left;
+    padding: 15px;
+
+}
+
+#deliveryFee {
+    float:right;
+    padding: 15px;
+}
+
+/* Categories for Each Restaurant */
+#categories {
+    float:left;  
+    width:20%; 
+    text-align: center;
+}
+
+/* Buttons on the screen */
+.button {
+    background-color: #009ADF; 
+    border: none;
+    color: white;
+    padding: 8px 14px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 7px 7px;
+    font-family: Brandon Regular, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+#categories .button {
+    margin-top: 10%;
+}
+
+/* Restaurant Menu Content */
+#content {
+    float:left;  
+    width:50%;  
+}
+
+#food-category-header {
+    text-align:center;
+    padding-top: 15px;
+}
+
+/* Deals with h2 elements inside of content */
+#content h2 {
+    font-family: Brandon Medium, Helvetica, sans-serif;
+    color: #EAF1F2;
+    font-size: 25px;
+}
+
+/* Deals with the background for the menu category */
+#backgroundHead {
+    background-color: #273D52;
+    text-align: center;
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    box-shadow: 3px 3px #009ADF;
+}
+
+/* Deals with h3 elements inside of content */
+#content h3 {
+    font-family: Brandon Medium, Helvetica, sans-serif;
+    color: #273D52;
+    font-size: 20px;
+}
+
+/* Deals with p elements inside of content */
+#content p {
+    font-family: Brandon Regular, Helvetica, sans-serif;
+    color: #273D52;
+    font-size: 18px;
+    margin-top: -10px;
+}
+
+/* Cost (Right Side) */
+#cost {
+    float:right; 
+    width:30%; 
+}
+
+/* Deals with h2 elements inside of cost */
+#cost h2 {
+    font-family: Brandon Medium, Helvetica, sans-serif;
+    color: #EAF1F2;
+    font-size: 25px;
+    margin-left: 15px;
+}
+
+/* Generic Table styling */
+table {
+    border-collapse: collapse;
+    width: 80%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+/* Specific styling for the items table and costs table and their headings */
+#itemsTable, #costsTable {
+    padding-left: 15px;
+    width: 80%;
+    display: block;
+}
+
+#itemsTable th, #costsTable th {
+    background-color: #006B9A;
+    font-family: Brandon Medium, Helvetica, sans-serif;
+    color: #EAF1F2;
+    text-align: center;
+}
+
+#itemsTable td {
+    background-color: #0082BC;
+    font-family: Brandon Medium, Helvetica, sans-serif;
+    color: #EAF1F2;
+}
+
+/* Message for amount of money more */
+#amountNeededMore {
+    font-family: Brandon Medium, Helvetica, sans-serif;
+    color: #273D52;
+    text-align: center;
+}
+
+/* Submit Order Button */
+#submitOrder {
+    margin-left: 15px;
+}
+
+
+
+

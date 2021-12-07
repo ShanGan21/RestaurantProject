@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link href="orderform.css" rel="stylesheet" type="text/css">
+        <!-- The orderform includes the information for the client.js and the client Javascript -->
+        <script src="orderform.js"></script>
+        <title>Order Form</title>
+    </head>
+
+    <!-- Calls the initialize function and this component refers to the dropdown list -->
+    <body onload="init()">
+        <div id="restaurantList">
+            <select id="restaurants" name="restaurants" onchange="restaurantChange()">
+            </select>
+        </div><br>
+
+        <!-- All of the selected restaurant's information -->
+        <div id="restaurantInfo">
+            <h1 id="minimumOrder"></h1>
+            <h1 id="restaurantTitle"></h1>
+            <h1 id="deliveryFee"></h1>
+        </div><br>
+
+        <!-- The selected restaurant's menu and category -->
+        <div id="restaurantsMenu">
+            <div id="categories">
+                <div class="categoryHeader">
+                    <p>Category</p>
+                </div>
+            </div>
+
+            <!-- The restaurant's menu items -->
+            <div id="content">
+                <div id="food-category-header">
+                </div>
+            </div>
+
+            <!-- The current order summary, and the all of the costs -->
+            <div id="cost"> 
+                <h2 id="backgroundHead">Cost</h2>
+                <table id="itemsTable">
+                </table><br>
+                <table id="costsTable">    
+                    <tr>
+                        <th>Subtotal ($)</th>
+                        ` <th id="subtotal"></th>
+                    </tr> 
+                    <tr>
+                        <th>Tax ($)</th>
+                        <th id="taxes"></th>
+                    </tr> 
+                    <tr>
+                        <th>Delivery Fee ($)</th>
+                        <th id="delivery"></th>
+                    </tr> 
+                    <tr>
+                        <th>Total ($)</th>
+                        <th id="total"></th>
+                    </tr> 
+                </table>
+
+                <!-- The message for placing a successful order and submit button. -->
+                <h4 id="amountNeededMore"></h4>
+                <button class="button" id="submitOrder" style="display: none " onclick="submitOrder()">Submit Order!</button>
+            </div>
+        </div>
+
+    </body>
+</html>
