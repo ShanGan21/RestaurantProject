@@ -18,7 +18,7 @@ let aragorn = {
                 description: "Served with warm bread, 5 per order.",
                 price: 4.00
             },
-            2: { //Thank you Kiratchii
+            2: { 
                 name: "Sauron's Lava Soup",
                 description: "It's just really spicy water.",
                 price: 7.50
@@ -45,12 +45,12 @@ let aragorn = {
                 description: "Lots of unidentified pieces. Serves 50.",
                 price: 65.00
             },
-            7: {//Thanks to M_Sabeyon
+            7: {
                 name: "Mount Doom Roast Special with Side of Precious Onion Rings.",
                 description: "Smeagol's favorite.",
                 price: 15.75
             },
-            8: { //Thanks Shar[TA]
+            8: { 
                 name: "Morgoth's Scorched Burgers with Chips",
                 description: "Blackened beyond recognition.",
                 price: 13.33
